@@ -1,0 +1,135 @@
+First Name,Last Name,Email,Job Title,Company Name,Company Domain Name,Number of Employees,Company City,Company State/Region,Company Country/Region
+Kenji,Mori,kenji.mori@tensorfieldlabs.ai,ML Infrastructure Lead,Tensorfield Labs,tensorfieldlabs.ai,2319,Palo Alto,California,United States
+Andre,Lin,andre.lin@tensorfieldlabs.ai,CTO,Tensorfield Labs,tensorfieldlabs.ai,2319,Palo Alto,California,United States
+Diego,Carter,diego.carter@tensorfieldlabs.ai,Finance Manager,Tensorfield Labs,tensorfieldlabs.ai,2319,Palo Alto,California,United States
+Lucas,Haddad,lucas.haddad@tensorfieldlabs.ai,Head of Legal,Tensorfield Labs,tensorfieldlabs.ai,2319,Palo Alto,California,United States
+Hannah,Zhang,hannah.zhang@quillmind.ai,ML Infrastructure Lead,Quillmind AI,quillmind.ai,9524,New York,New York,United States
+Ravi,Walsh,ravi.walsh@quillmind.ai,CTO,Quillmind AI,quillmind.ai,9524,New York,New York,United States
+Elena,Adeyemi,elena.adeyemi@quillmind.ai,Finance Manager,Quillmind AI,quillmind.ai,9524,New York,New York,United States
+Marcus,Kim,marcus.kim@quillmind.ai,Head of Legal,Quillmind AI,quillmind.ai,9524,New York,New York,United States
+Wei,Brooks,wei.brooks@parallaxrobotics.ai,ML Infrastructure Lead,Parallax Robotics,parallaxrobotics.ai,55,San Jose,California,United States
+Aisha,Larsen,aisha.larsen@parallaxrobotics.ai,CTO,Parallax Robotics,parallaxrobotics.ai,55,San Jose,California,United States
+Leila,Lin,leila.lin@parallaxrobotics.ai,Finance Manager,Parallax Robotics,parallaxrobotics.ai,55,San Jose,California,United States
+Nadia,Rossi,nadia.rossi@brightloombio.ai,ML Infrastructure Lead,Brightloom Bio,brightloombio.ai,13,London,England,United Kingdom
+Lucas,Moreau,lucas.moreau@brightloombio.ai,CTO,Brightloom Bio,brightloombio.ai,13,London,England,United Kingdom
+Nadia,Nasser,nadia.nasser@brightloombio.ai,Finance Manager,Brightloom Bio,brightloombio.ai,13,London,England,United Kingdom
+Ravi,Tanaka,ravi.tanaka@vectorwell.ai,ML Infrastructure Lead,Vectorwell,vectorwell.ai,76,Boston,Massachusetts,United States
+Chloe,Shah,chloe.shah@vectorwell.ai,CTO,Vectorwell,vectorwell.ai,76,Boston,Massachusetts,United States
+Leila,Mori,leila.mori@vectorwell.ai,Finance Manager,Vectorwell,vectorwell.ai,76,Boston,Massachusetts,United States
+Jordan,Karimi,jordan.karimi@cobaltvoice.ai,ML Infrastructure Lead,Cobaltvoice,cobaltvoice.ai,21,Palo Alto,California,United States
+Diego,Dubois,diego.dubois@cobaltvoice.ai,CTO,Cobaltvoice,cobaltvoice.ai,21,Palo Alto,California,United States
+Samuel,Tanaka,samuel.tanaka@cobaltvoice.ai,Finance Manager,Cobaltvoice,cobaltvoice.ai,21,Palo Alto,California,United States
+Samuel,Brooks,samuel.brooks@meridianvisionsystems.ai,ML Infrastructure Lead,Meridian Vision Systems,meridianvisionsystems.ai,46,London,England,United Kingdom
+Daniel,Kim,daniel.kim@meridianvisionsystems.ai,CTO,Meridian Vision Systems,meridianvisionsystems.ai,46,London,England,United Kingdom
+Sofia,Lin,sofia.lin@meridianvisionsystems.ai,Finance Manager,Meridian Vision Systems,meridianvisionsystems.ai,46,London,England,United Kingdom
+Aisha,Nasser,aisha.nasser@northgraingenomics.ai,ML Infrastructure Lead,Northgrain Genomics,northgraingenomics.ai,20,London,England,United Kingdom
+Priya,Mori,priya.mori@northgraingenomics.ai,CTO,Northgrain Genomics,northgraingenomics.ai,20,London,England,United Kingdom
+Diego,Mori,diego.mori@northgraingenomics.ai,Finance Manager,Northgrain Genomics,northgraingenomics.ai,20,London,England,United Kingdom
+Kenji,Iyer,kenji.iyer@driftwooddiffusion.ai,ML Infrastructure Lead,Driftwood Diffusion,driftwooddiffusion.ai,15246,London,England,United Kingdom
+Samuel,Okafor,samuel.okafor@driftwooddiffusion.ai,CTO,Driftwood Diffusion,driftwooddiffusion.ai,15246,London,England,United Kingdom
+Ravi,Kim,ravi.kim@driftwooddiffusion.ai,Finance Manager,Driftwood Diffusion,driftwooddiffusion.ai,15246,London,England,United Kingdom
+Anya,Brooks,anya.brooks@driftwooddiffusion.ai,Head of Legal,Driftwood Diffusion,driftwooddiffusion.ai,15246,London,England,United Kingdom
+Sofia,Brooks,sofia.brooks@halcyonagents.ai,ML Infrastructure Lead,Halcyon Agents,halcyonagents.ai,45,Toronto,Ontario,Canada
+Ravi,Petrova,ravi.petrova@halcyonagents.ai,CTO,Halcyon Agents,halcyonagents.ai,45,Toronto,Ontario,Canada
+Tomas,Zhang,tomas.zhang@halcyonagents.ai,Finance Manager,Halcyon Agents,halcyonagents.ai,45,Toronto,Ontario,Canada
+Fatima,Adeyemi,fatima.adeyemi@lumenforge.ai,ML Infrastructure Lead,Lumenforge,lumenforge.ai,56,San Francisco,California,United States
+Aisha,Dubois,aisha.dubois@lumenforge.ai,CTO,Lumenforge,lumenforge.ai,56,San Francisco,California,United States
+Samuel,Iyer,samuel.iyer@lumenforge.ai,Finance Manager,Lumenforge,lumenforge.ai,56,San Francisco,California,United States
+Rachel,Shah,rachel.shah@kestrelautonomy.ai,ML Infrastructure Lead,Kestrel Autonomy,kestrelautonomy.ai,236,San Jose,California,United States
+Nadia,Cohen,nadia.cohen@kestrelautonomy.ai,CTO,Kestrel Autonomy,kestrelautonomy.ai,236,San Jose,California,United States
+Grace,Shah,grace.shah@kestrelautonomy.ai,Finance Manager,Kestrel Autonomy,kestrelautonomy.ai,236,San Jose,California,United States
+Jordan,Haddad,jordan.haddad@sablecrestanalytics.ai,ML Infrastructure Lead,Sablecrest Analytics,sablecrestanalytics.ai,17,New York,New York,United States
+Diego,Larsen,diego.larsen@sablecrestanalytics.ai,CTO,Sablecrest Analytics,sablecrestanalytics.ai,17,New York,New York,United States
+Sofia,Fischer,sofia.fischer@sablecrestanalytics.ai,Finance Manager,Sablecrest Analytics,sablecrestanalytics.ai,17,New York,New York,United States
+Marcus,Fischer,marcus.fischer@orchardllm.ai,ML Infrastructure Lead,Orchard LLM,orchardllm.ai,14,Austin,Texas,United States
+Diego,Carter,diego.carter@orchardllm.ai,CTO,Orchard LLM,orchardllm.ai,14,Austin,Texas,United States
+Yuki,Walsh,yuki.walsh@pinecurvehealth.ai,ML Infrastructure Lead,Pinecurve Health AI,pinecurvehealth.ai,14,Boston,Massachusetts,United States
+Kofi,Rossi,kofi.rossi@pinecurvehealth.ai,CTO,Pinecurve Health AI,pinecurvehealth.ai,14,Boston,Massachusetts,United States
+Samuel,Dubois,samuel.dubois@pinecurvehealth.ai,Finance Manager,Pinecurve Health AI,pinecurvehealth.ai,14,Boston,Massachusetts,United States
+Samuel,Zhang,samuel.zhang@glasswingmodels.ai,ML Infrastructure Lead,Glasswing Models,glasswingmodels.ai,46,Austin,Texas,United States
+Wei,Karimi,wei.karimi@glasswingmodels.ai,CTO,Glasswing Models,glasswingmodels.ai,46,Austin,Texas,United States
+Grace,Dubois,grace.dubois@glasswingmodels.ai,Finance Manager,Glasswing Models,glasswingmodels.ai,46,Austin,Texas,United States
+Aisha,Tanaka,aisha.tanaka@ironbarksecurity.ai,ML Infrastructure Lead,Ironbark Security AI,ironbarksecurity.ai,54,San Francisco,California,United States
+Ravi,Petrova,ravi.petrova@ironbarksecurity.ai,CTO,Ironbark Security AI,ironbarksecurity.ai,54,San Francisco,California,United States
+Mei,Novak,mei.novak@ironbarksecurity.ai,Finance Manager,Ironbark Security AI,ironbarksecurity.ai,54,San Francisco,California,United States
+Rachel,Dubois,rachel.dubois@tidepoolresearch.ai,ML Infrastructure Lead,Tidepool Research,tidepoolresearch.ai,123,London,England,United Kingdom
+Samuel,Mori,samuel.mori@tidepoolresearch.ai,CTO,Tidepool Research,tidepoolresearch.ai,123,London,England,United Kingdom
+Mateo,Novak,mateo.novak@tidepoolresearch.ai,Finance Manager,Tidepool Research,tidepoolresearch.ai,123,London,England,United Kingdom
+Mateo,Alvarez,mateo.alvarez@copperlinefinance.ai,ML Infrastructure Lead,Copperline Finance AI,copperlinefinance.ai,342,Palo Alto,California,United States
+Lucas,Karimi,lucas.karimi@copperlinefinance.ai,CTO,Copperline Finance AI,copperlinefinance.ai,342,Palo Alto,California,United States
+Ethan,Haddad,ethan.haddad@copperlinefinance.ai,Finance Manager,Copperline Finance AI,copperlinefinance.ai,342,Palo Alto,California,United States
+Omar,Iyer,omar.iyer@wrenfieldstudios.ai,ML Infrastructure Lead,Wrenfield Studios,wrenfieldstudios.ai,44,Austin,Texas,United States
+Omar,Kim,omar.kim@wrenfieldstudios.ai,CTO,Wrenfield Studios,wrenfieldstudios.ai,44,Austin,Texas,United States
+Hannah,Fischer,hannah.fischer@wrenfieldstudios.ai,Finance Manager,Wrenfield Studios,wrenfieldstudios.ai,44,Austin,Texas,United States
+Elena,Cohen,elena.cohen@marblewaylegal.ai,ML Infrastructure Lead,Marbleway Legal AI,marblewaylegal.ai,10,Palo Alto,California,United States
+Priya,Carter,priya.carter@marblewaylegal.ai,CTO,Marbleway Legal AI,marblewaylegal.ai,10,Palo Alto,California,United States
+Chloe,Fischer,chloe.fischer@marblewaylegal.ai,Finance Manager,Marbleway Legal AI,marblewaylegal.ai,10,Palo Alto,California,United States
+Andre,Fischer,andre.fischer@foxglovespeech.ai,ML Infrastructure Lead,Foxglove Speech,foxglovespeech.ai,10982,Seattle,Washington,United States
+Priya,Rossi,priya.rossi@foxglovespeech.ai,CTO,Foxglove Speech,foxglovespeech.ai,10982,Seattle,Washington,United States
+Mateo,Brooks,mateo.brooks@foxglovespeech.ai,Finance Manager,Foxglove Speech,foxglovespeech.ai,10982,Seattle,Washington,United States
+Marcus,Fischer,marcus.fischer@foxglovespeech.ai,Head of Legal,Foxglove Speech,foxglovespeech.ai,10982,Seattle,Washington,United States
+Elena,Bennett,elena.bennett@stratacloudmedia.ai,ML Infrastructure Lead,Stratacloud Media,stratacloudmedia.ai,14,Seattle,Washington,United States
+Anya,Cohen,anya.cohen@stratacloudmedia.ai,CTO,Stratacloud Media,stratacloudmedia.ai,14,Seattle,Washington,United States
+Elena,Iyer,elena.iyer@stratacloudmedia.ai,Finance Manager,Stratacloud Media,stratacloudmedia.ai,14,Seattle,Washington,United States
+Hannah,Tanaka,hannah.tanaka@emberlightgames.ai,ML Infrastructure Lead,Emberlight Games,emberlightgames.ai,292,New York,New York,United States
+Leila,Walsh,leila.walsh@emberlightgames.ai,CTO,Emberlight Games,emberlightgames.ai,292,New York,New York,United States
+Tomas,Dubois,tomas.dubois@emberlightgames.ai,Finance Manager,Emberlight Games,emberlightgames.ai,292,New York,New York,United States
+Wei,Mori,wei.mori@riverstoneretail.ai,ML Infrastructure Lead,Riverstone Retail AI,riverstoneretail.ai,6829,Austin,Texas,United States
+Rachel,Carter,rachel.carter@riverstoneretail.ai,CTO,Riverstone Retail AI,riverstoneretail.ai,6829,Austin,Texas,United States
+Andre,Walsh,andre.walsh@riverstoneretail.ai,Finance Manager,Riverstone Retail AI,riverstoneretail.ai,6829,Austin,Texas,United States
+Hannah,Larsen,hannah.larsen@riverstoneretail.ai,Head of Legal,Riverstone Retail AI,riverstoneretail.ai,6829,Austin,Texas,United States
+Grace,Larsen,grace.larsen@solacebiotech.ai,ML Infrastructure Lead,Solace Biotech,solacebiotech.ai,21,Austin,Texas,United States
+Mei,Novak,mei.novak@solacebiotech.ai,CTO,Solace Biotech,solacebiotech.ai,21,Austin,Texas,United States
+Jordan,Kim,jordan.kim@solacebiotech.ai,Finance Manager,Solace Biotech,solacebiotech.ai,21,Austin,Texas,United States
+Leila,Lin,leila.lin@altitudemapping.ai,ML Infrastructure Lead,Altitude Mapping,altitudemapping.ai,3839,New York,New York,United States
+Fatima,Lin,fatima.lin@altitudemapping.ai,CTO,Altitude Mapping,altitudemapping.ai,3839,New York,New York,United States
+Mei,Nasser,mei.nasser@altitudemapping.ai,Finance Manager,Altitude Mapping,altitudemapping.ai,3839,New York,New York,United States
+Anya,Mori,anya.mori@altitudemapping.ai,Head of Legal,Altitude Mapping,altitudemapping.ai,3839,New York,New York,United States
+Marcus,Karimi,marcus.karimi@quartzbridgelabs.ai,ML Infrastructure Lead,Quartzbridge Labs,quartzbridgelabs.ai,333,San Jose,California,United States
+Ethan,Brooks,ethan.brooks@quartzbridgelabs.ai,CTO,Quartzbridge Labs,quartzbridgelabs.ai,333,San Jose,California,United States
+Jordan,Bennett,jordan.bennett@quartzbridgelabs.ai,Finance Manager,Quartzbridge Labs,quartzbridgelabs.ai,333,San Jose,California,United States
+Lucas,Mori,lucas.mori@nightjarvideo.ai,ML Infrastructure Lead,Nightjar Video,nightjarvideo.ai,6854,Seattle,Washington,United States
+Daniel,Larsen,daniel.larsen@nightjarvideo.ai,CTO,Nightjar Video,nightjarvideo.ai,6854,Seattle,Washington,United States
+Hannah,Novak,hannah.novak@nightjarvideo.ai,Head of Legal,Nightjar Video,nightjarvideo.ai,6854,Seattle,Washington,United States
+Tomas,Dubois,tomas.dubois@everferneducation.ai,ML Infrastructure Lead,Everfern Education AI,everferneducation.ai,198,Boston,Massachusetts,United States
+Omar,Zhang,omar.zhang@everferneducation.ai,CTO,Everfern Education AI,everferneducation.ai,198,Boston,Massachusetts,United States
+Mei,Okafor,mei.okafor@everferneducation.ai,Finance Manager,Everfern Education AI,everferneducation.ai,198,Boston,Massachusetts,United States
+Kenji,Nasser,kenji.nasser@hollowpeakmaterials.ai,ML Infrastructure Lead,Hollowpeak Materials,hollowpeakmaterials.ai,8696,London,England,United Kingdom
+Hannah,Rossi,hannah.rossi@hollowpeakmaterials.ai,CTO,Hollowpeak Materials,hollowpeakmaterials.ai,8696,London,England,United Kingdom
+Omar,Larsen,omar.larsen@hollowpeakmaterials.ai,Finance Manager,Hollowpeak Materials,hollowpeakmaterials.ai,8696,London,England,United Kingdom
+Anya,Dubois,anya.dubois@hollowpeakmaterials.ai,Head of Legal,Hollowpeak Materials,hollowpeakmaterials.ai,8696,London,England,United Kingdom
+Jordan,Bennett,jordan.bennett@juniperprotein.ai,ML Infrastructure Lead,Juniper Protein,juniperprotein.ai,3332,Austin,Texas,United States
+Ethan,Dubois,ethan.dubois@juniperprotein.ai,CTO,Juniper Protein,juniperprotein.ai,3332,Austin,Texas,United States
+Kofi,Shah,kofi.shah@juniperprotein.ai,Finance Manager,Juniper Protein,juniperprotein.ai,3332,Austin,Texas,United States
+Elena,Adeyemi,elena.adeyemi@juniperprotein.ai,Head of Legal,Juniper Protein,juniperprotein.ai,3332,Austin,Texas,United States
+Anya,Fischer,anya.fischer@clearwaterclimate.ai,ML Infrastructure Lead,Clearwater Climate AI,clearwaterclimate.ai,59,San Francisco,California,United States
+Aisha,Lin,aisha.lin@clearwaterclimate.ai,CTO,Clearwater Climate AI,clearwaterclimate.ai,59,San Francisco,California,United States
+Grace,Walsh,grace.walsh@clearwaterclimate.ai,Finance Manager,Clearwater Climate AI,clearwaterclimate.ai,59,San Francisco,California,United States
+Tomas,Moreau,tomas.moreau@bramblecode.ai,ML Infrastructure Lead,Bramblecode,bramblecode.ai,25,Boston,Massachusetts,United States
+Diego,Bennett,diego.bennett@bramblecode.ai,CTO,Bramblecode,bramblecode.ai,25,Boston,Massachusetts,United States
+Aisha,Moreau,aisha.moreau@bramblecode.ai,Finance Manager,Bramblecode,bramblecode.ai,25,Boston,Massachusetts,United States
+Priya,Moreau,priya.moreau@starlingtranslate.ai,ML Infrastructure Lead,Starling Translate,starlingtranslate.ai,44,Seattle,Washington,United States
+Kenji,Larsen,kenji.larsen@starlingtranslate.ai,CTO,Starling Translate,starlingtranslate.ai,44,Seattle,Washington,United States
+Irene,Nasser,irene.nasser@starlingtranslate.ai,Finance Manager,Starling Translate,starlingtranslate.ai,44,Seattle,Washington,United States
+Sofia,Lin,sofia.lin@ravenmoorresearch.ai,ML Infrastructure Lead,Ravenmoor Research,ravenmoorresearch.ai,8467,Austin,Texas,United States
+Mateo,Mori,mateo.mori@ravenmoorresearch.ai,CTO,Ravenmoor Research,ravenmoorresearch.ai,8467,Austin,Texas,United States
+Irene,Dubois,irene.dubois@ravenmoorresearch.ai,Finance Manager,Ravenmoor Research,ravenmoorresearch.ai,8467,Austin,Texas,United States
+Leila,Silva,leila.silva@ravenmoorresearch.ai,Head of Legal,Ravenmoor Research,ravenmoorresearch.ai,8467,Austin,Texas,United States
+Grace,Zhang,grace.zhang@saltmarshagents.ai,ML Infrastructure Lead,Saltmarsh Agents,saltmarshagents.ai,14464,Toronto,Ontario,Canada
+Tomas,Alvarez,tomas.alvarez@saltmarshagents.ai,CTO,Saltmarsh Agents,saltmarshagents.ai,14464,Toronto,Ontario,Canada
+Tomas,Bennett,tomas.bennett@saltmarshagents.ai,Finance Manager,Saltmarsh Agents,saltmarshagents.ai,14464,Toronto,Ontario,Canada
+Andre,Mori,andre.mori@saltmarshagents.ai,Head of Legal,Saltmarsh Agents,saltmarshagents.ai,14464,Toronto,Ontario,Canada
+Chloe,Bennett,chloe.bennett@thistlesearch.ai,ML Infrastructure Lead,Thistle Search,thistlesearch.ai,6181,Toronto,Ontario,Canada
+Yuki,Cohen,yuki.cohen@thistlesearch.ai,CTO,Thistle Search,thistlesearch.ai,6181,Toronto,Ontario,Canada
+Andre,Walsh,andre.walsh@thistlesearch.ai,Head of Legal,Thistle Search,thistlesearch.ai,6181,Toronto,Ontario,Canada
+Ravi,Iyer,ravi.iyer@obsidianvision.ai,ML Infrastructure Lead,Obsidian Vision,obsidianvision.ai,23,San Jose,California,United States
+Aisha,Bennett,aisha.bennett@obsidianvision.ai,CTO,Obsidian Vision,obsidianvision.ai,23,San Jose,California,United States
+Ravi,Rossi,ravi.rossi@obsidianvision.ai,Finance Manager,Obsidian Vision,obsidianvision.ai,23,San Jose,California,United States
+Anya,Okafor,anya.okafor@larkspurrobotics.ai,ML Infrastructure Lead,Larkspur Robotics,larkspurrobotics.ai,19161,London,England,United Kingdom
+Elena,Petrova,elena.petrova@larkspurrobotics.ai,CTO,Larkspur Robotics,larkspurrobotics.ai,19161,London,England,United Kingdom
+Elena,Karimi,elena.karimi@larkspurrobotics.ai,Finance Manager,Larkspur Robotics,larkspurrobotics.ai,19161,London,England,United Kingdom
+Anya,Fischer,anya.fischer@larkspurrobotics.ai,Head of Legal,Larkspur Robotics,larkspurrobotics.ai,19161,London,England,United Kingdom
+Jamie,Ortiz,jamie.ortiz61@gmail.com,Founder,,,,,,
+Alex,Reyes,alex.reyes25@gmail.com,ML Engineer,,,,,,
+Sam,Patel,sam.patel82@gmail.com,Head of Platform,,,,,,
+,,,,"Tensorfield Labs, Inc.",tensorfield-labs.ai,2319,Palo Alto,California,United States

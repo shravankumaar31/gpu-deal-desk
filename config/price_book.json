@@ -1,0 +1,140 @@
+{
+  "_note": "Deal desk policy as code. v1 is synthetic (used for the deals already in HubSpot). v2 list rates are calibrated to Hyperbolic's public on-demand rates as of Aug-Sep 2026; all discounts, thresholds and approvers are synthetic policy for this portfolio project.",
+  "price_books": {
+    "v1": {
+      "status": "legacy - honored for deals already in HubSpot (grandfathered)",
+      "list_rate_per_gpu_hour": {
+        "H100 SXM": 2.2,
+        "H200": 2.8,
+        "B200": 3.9
+      },
+      "term_discount": {
+        "On-Demand": 0.0,
+        "1-Month Reserved": 0.05,
+        "3-Month Reserved": 0.1,
+        "6-Month Reserved": 0.15,
+        "12-Month Reserved": 0.2
+      }
+    },
+    "v2": {
+      "status": "active - all new quotes from 2026-09-21",
+      "list_rate_per_gpu_hour": {
+        "H100 SXM": 3.19,
+        "H200": 3.99,
+        "B200": 5.99
+      },
+      "term_discount": {
+        "On-Demand": 0.0,
+        "1-Month Reserved": 0.05,
+        "3-Month Reserved": 0.1,
+        "6-Month Reserved": 0.15
+      },
+      "twelve_month_and_longer": "Private Cloud tier - custom pricing, always CEO approval"
+    }
+  },
+  "term_hours": {
+    "On-Demand": 730,
+    "1-Month Reserved": 730,
+    "3-Month Reserved": 2190,
+    "6-Month Reserved": 4380,
+    "12-Month Reserved": 8760
+  },
+  "quote_rules": {
+    "quote_validity_days": 7,
+    "reserved_min_gpus": 8,
+    "reserved_gpu_increment": 8,
+    "standard_payment_terms": "Net 30",
+    "standard_uptime_sla": "99.5%"
+  },
+  "approval_matrix": {
+    "approver_rank": [
+      "Deal Desk (auto)",
+      "Head of GTM",
+      "Finance",
+      "Infra / Supply Lead",
+      "CEO"
+    ],
+    "discount": [
+      {
+        "max": 0.1,
+        "approver": "Deal Desk (auto)"
+      },
+      {
+        "max": 0.2,
+        "approver": "Head of GTM"
+      },
+      {
+        "max": 1.0,
+        "approver": "CEO"
+      }
+    ],
+    "total_contract_value": [
+      {
+        "max": 500000,
+        "approver": "Deal Desk (auto)"
+      },
+      {
+        "max": 2000000,
+        "approver": "Head of GTM"
+      },
+      {
+        "max": 1e+18,
+        "approver": "CEO"
+      }
+    ],
+    "non_standard_terms": {
+      "Net 60 payment terms": [
+        "Finance"
+      ],
+      "Custom 99.95% uptime SLA": [
+        "Infra / Supply Lead",
+        "CEO"
+      ],
+      "Capacity reservation guarantee": [
+        "Infra / Supply Lead"
+      ],
+      "24-month price lock": [
+        "Finance",
+        "CEO"
+      ],
+      "Early termination clause": [
+        "CEO"
+      ]
+    },
+    "term": {
+      "12-Month Reserved": [
+        "Finance"
+      ]
+    },
+    "_calibration": "Draft 1 (TCV CEO > $1M, 12-month terms -> CEO) sent 36% of quoted deals to the CEO. Recalibrated: TCV CEO > $2M, 12-month commitments -> Finance credit review. v1.2: 12-month commitments are approved by Finance (credit risk) with the CEO notified, not asked to approve.",
+    "notify_only": {
+      "term": {
+        "12-Month Reserved": [
+          "CEO"
+        ]
+      }
+    }
+  },
+  "escalation": {
+    "ladder_days": {
+      "follow_up": 3,
+      "head_of_gtm": 5,
+      "ceo": 10
+    },
+    "pause": {
+      "allowed_reasons": [
+        "Customer legal review",
+        "Customer procurement cycle",
+        "Customer budget approval",
+        "Capacity confirmation with supplier"
+      ],
+      "max_days": 14,
+      "requires": [
+        "reason",
+        "expected return date",
+        "logged on the deal record"
+      ],
+      "max_consecutive": 1
+    }
+  }
+}

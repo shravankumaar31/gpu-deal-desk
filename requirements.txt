@@ -1,0 +1,5 @@
+reportlab>=4.0
+
+# Only needed if you wire the scripts to the live HubSpot API
+requests>=2.31
+python-dotenv>=1.0

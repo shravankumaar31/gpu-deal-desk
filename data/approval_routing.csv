@@ -1,0 +1,45 @@
+Deal Name,Stage,Final Approver,All Approvers,Notify,Reasons
+Ironbark Security AI - 64x H100 SXM - 1-Month Reserved,Quote Sent,Deal Desk (auto),Deal Desk (auto),,within policy
+Tidepool Research - 16x H100 SXM - 12-Month Reserved,Quote Sent,Finance,Finance,CEO,contract term: 12-Month Reserved
+Copperline Finance AI - 16x B200 - 3-Month Reserved,Quote Sent,Deal Desk (auto),Deal Desk (auto),,within policy
+Wrenfield Studios - 16x H100 SXM - 6-Month Reserved,Quote Sent,Deal Desk (auto),Deal Desk (auto),,within policy
+Marbleway Legal AI - 256x H100 SXM - 6-Month Reserved,Quote Sent,CEO,CEO,,"total contract value $2,096,794"
+Foxglove Speech - 256x H200 - 6-Month Reserved,Quote Sent,CEO,CEO,,"total contract value $2,401,782"
+Stratacloud Media - 32x H200 - 6-Month Reserved,Quote Sent,Deal Desk (auto),Deal Desk (auto),,within policy
+Emberlight Games - 64x H100 SXM - 1-Month Reserved,Quote Sent,Deal Desk (auto),Deal Desk (auto),,within policy
+Riverstone Retail AI - 64x B200 - 12-Month Reserved,Quote Sent,Finance,Head of GTM; Finance,CEO,"negotiated discount 12%; total contract value $1,539,293; contract term: 12-Month Reserved"
+Solace Biotech - 64x B200 - 12-Month Reserved,Contract Out,Finance,Head of GTM; Finance,CEO,"total contract value $1,661,737; contract term: 12-Month Reserved"
+Altitude Mapping - 64x H200 - 1-Month Reserved,Contract Out,Deal Desk (auto),Deal Desk (auto),,within policy
+Quartzbridge Labs - 16x H200 - 6-Month Reserved,Contract Out,Deal Desk (auto),Deal Desk (auto),,within policy
+Nightjar Video - 64x H100 SXM - 3-Month Reserved,Contract Out,Deal Desk (auto),Deal Desk (auto),,within policy
+Everfern Education AI - 16x B200 - On-Demand,Contract Out,Deal Desk (auto),Deal Desk (auto),,within policy
+Hollowpeak Materials - 32x H200 - 1-Month Reserved,Contract Out,Deal Desk (auto),Deal Desk (auto),,within policy
+Juniper Protein - 16x H100 SXM - On-Demand,Contract Out,Deal Desk (auto),Deal Desk (auto),,within policy
+Clearwater Climate AI - 32x H200 - On-Demand,Contract Out,CEO,Infra / Supply Lead; CEO,,non-standard term: Custom 99.95% uptime SLA
+Bramblecode - 256x H100 SXM - 3-Month Reserved,Contract Out,Head of GTM,Head of GTM,,"total contract value $999,060"
+Starling Translate - 128x H100 SXM - 1-Month Reserved,Contract Out,CEO,CEO,,non-standard term: Early termination clause
+Ravenmoor Research - 32x H100 SXM - 12-Month Reserved,Closed Won,Finance,Finance,CEO,contract term: 12-Month Reserved
+Saltmarsh Agents - 128x H200 - 6-Month Reserved,Closed Won,Head of GTM,Head of GTM,,"total contract value $1,294,294"
+Thistle Search - 256x H100 SXM - 3-Month Reserved,Closed Won,Head of GTM,Head of GTM,,"total contract value $1,110,067"
+Obsidian Vision - 16x H200 - 1-Month Reserved,Closed Won,Deal Desk (auto),Deal Desk (auto),,within policy
+Larkspur Robotics - 32x H100 SXM - 1-Month Reserved,Closed Won,Deal Desk (auto),Deal Desk (auto),,within policy
+Meridian Vision Systems - 32x B200 - 6-Month Reserved,Closed Won,Deal Desk (auto),Deal Desk (auto),,within policy
+Solace Biotech - 8x H100 SXM - 1-Month Reserved,Closed Won,Infra / Supply Lead,Infra / Supply Lead,,non-standard term: Capacity reservation guarantee
+Nightjar Video - 32x B200 - 12-Month Reserved,Closed Won,Finance,Head of GTM; Finance,CEO,"negotiated discount 18%; total contract value $717,171; contract term: 12-Month Reserved"
+Kestrel Autonomy - 16x H200 - On-Demand,Closed Won,Deal Desk (auto),Deal Desk (auto),,within policy
+Pinecurve Health AI - 16x B200 - 6-Month Reserved,Closed Won,Deal Desk (auto),Deal Desk (auto),,within policy
+Wrenfield Studios - 32x H200 - 6-Month Reserved,Closed Won,Deal Desk (auto),Deal Desk (auto),,within policy
+Obsidian Vision - 64x H100 SXM - 3-Month Reserved,Closed Won,Deal Desk (auto),Deal Desk (auto),,within policy
+Kestrel Autonomy - 128x H100 SXM - 3-Month Reserved,Closed Won,Head of GTM,Head of GTM,,"total contract value $555,034"
+Meridian Vision Systems - 32x B200 - 6-Month Reserved,Closed Won,Finance,Finance,,non-standard term: Net 60 payment terms
+Clearwater Climate AI - 8x B200 - 12-Month Reserved,Closed Won,Finance,Finance,CEO,contract term: 12-Month Reserved
+Orchard LLM - 16x H100 SXM - 3-Month Reserved,Closed Won,Deal Desk (auto),Deal Desk (auto),,within policy
+Ravenmoor Research - 64x H100 SXM - On-Demand,Closed Won,Deal Desk (auto),Deal Desk (auto),,within policy
+Clearwater Climate AI - 64x H200 - 6-Month Reserved,Closed Lost,CEO,Head of GTM; Finance; CEO,,"negotiated discount 15%; total contract value $567,087; non-standard term: 24-month price lock"
+Foxglove Speech - 256x B200 - 3-Month Reserved,Closed Lost,Head of GTM,Head of GTM,,"total contract value $1,810,419"
+Ravenmoor Research - 64x H200 - 6-Month Reserved,Closed Lost,Head of GTM,Head of GTM,,"negotiated discount 15%; total contract value $567,087"
+Hollowpeak Materials - 64x H200 - 6-Month Reserved,Closed Lost,Head of GTM,Head of GTM,,"negotiated discount 15%; total contract value $567,087"
+Meridian Vision Systems - 128x H200 - On-Demand,Closed Lost,Deal Desk (auto),Deal Desk (auto),,within policy
+Cobaltvoice - 256x B200 - 6-Month Reserved,Closed Lost,CEO,CEO,,"negotiated discount 22%; total contract value $2,899,294"
+Quartzbridge Labs - 8x B200 - 6-Month Reserved,Closed Lost,Deal Desk (auto),Deal Desk (auto),,within policy
+Emberlight Games - 16x H100 SXM - 12-Month Reserved,Closed Lost,CEO,Finance; CEO,CEO,non-standard term: 24-month price lock; contract term: 12-Month Reserved

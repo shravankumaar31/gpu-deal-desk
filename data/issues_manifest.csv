@@ -1,0 +1,41 @@
+Object,Record,Issue Type,Detail
+Company,"Tensorfield Labs, Inc.",duplicate_company,Same company as 'Tensorfield Labs' under a second domain
+Contact,jamie.ortiz61@gmail.com,unassociated_contact,Personal email domain; will not associate with any company
+Contact,alex.reyes25@gmail.com,unassociated_contact,Personal email domain; will not associate with any company
+Contact,sam.patel82@gmail.com,unassociated_contact,Personal email domain; will not associate with any company
+Deal,Halcyon Agents - 16x B200 - 6-Month Reserved,past_close_date_open_deal,Close date 2026-08-20 but stage is Technical Eval
+Deal,Pinecurve Health AI - 256x H200 - 1-Month Reserved,past_close_date_open_deal,Close date 2026-09-02 but stage is Technical Eval
+Deal,Everfern Education AI - 16x B200 - On-Demand,past_close_date_open_deal,Close date 2026-08-07 but stage is Contract Out
+Deal,Ironbark Security AI - 64x H100 SXM - 1-Month Reserved,past_close_date_open_deal,Close date 2026-09-18 but stage is Quote Sent
+Deal,Bramblecode - 256x H100 SXM - 3-Month Reserved,stale_contract,No contract update since 2026-09-16 (status: Out for Signature)
+Deal,Hollowpeak Materials - 32x H200 - 1-Month Reserved,stale_contract,No contract update since 2026-09-10 (status: Legal Review)
+Deal,Juniper Protein - 16x H100 SXM - On-Demand,stale_contract,No contract update since 2026-09-12 (status: Out for Signature)
+Deal,Starling Translate - 128x H100 SXM - 1-Month Reserved,stale_contract,No contract update since 2026-09-08 (status: Legal Review)
+Deal,Altitude Mapping - 64x H200 - 1-Month Reserved,stale_contract,No contract update since 2026-09-13 (status: Legal Review)
+Deal,Kestrel Autonomy - 16x H200 - On-Demand,amount_mismatch,Amount 40880.0 vs expected 32704.0 from GPU math
+Deal,Saltmarsh Agents - 128x H200 - 6-Month Reserved,amount_mismatch,Amount 1617866.88 vs expected 1294293.5 from GPU math
+Deal,Wrenfield Studios - 32x H200 - 6-Month Reserved,amount_mismatch,Amount 416976.0 vs expected 333580.8 from GPU math
+Deal,Marbleway Legal AI - 256x H100 SXM - 6-Month Reserved,missing_contract_term,Stage Quote Sent requires a contract term
+Deal,Emberlight Games - 64x H100 SXM - 1-Month Reserved,missing_contract_term,Stage Quote Sent requires a contract term
+Deal,Ravenmoor Research - 64x H100 SXM - On-Demand,won_without_signature,Closed Won but contract not countersigned
+Deal,Pinecurve Health AI - 16x B200 - 6-Month Reserved,won_without_signature,Closed Won but contract not countersigned
+Deal,Foxglove Speech - 256x B200 - 3-Month Reserved,missing_lost_reason,Closed Lost with no reason recorded
+Deal,Emberlight Games - 16x H100 SXM - 12-Month Reserved,missing_lost_reason,Closed Lost with no reason recorded
+Deal,Nightjar Video - 32x B200 - 12-Month Reserved,missing_po_number,Company has 1000+ employees (PO required) but no PO number
+Deal,Larkspur Robotics - 32x H100 SXM - 1-Month Reserved,missing_po_number,Company has 1000+ employees (PO required) but no PO number
+Deal,Orchard LLM - 16x H100 SXM - 3-Month Reserved,missing_billing_contact,Stage Closed Won but account has no Finance Manager contact
+Deal,Thistle Search - 256x H100 SXM - 3-Month Reserved,missing_billing_contact,Stage Closed Won but account has no Finance Manager contact
+Deal,Nightjar Video - 64x H100 SXM - 3-Month Reserved,missing_billing_contact,Stage Contract Out but account has no Finance Manager contact
+Deal,Nightjar Video - 32x B200 - 12-Month Reserved,missing_billing_contact,Stage Closed Won but account has no Finance Manager contact
+Deal,Riverstone Retail AI - 64x B200 - 12-Month Reserved,needs_discount_approval,Negotiated discount 12% exceeds 10% auto-approve
+Deal,Clearwater Climate AI - 32x H200 - On-Demand,needs_terms_review,Custom 99.95% uptime SLA
+Deal,Starling Translate - 128x H100 SXM - 1-Month Reserved,needs_terms_review,Early termination clause
+Deal,Solace Biotech - 8x H100 SXM - 1-Month Reserved,needs_terms_review,Capacity reservation guarantee
+Deal,Nightjar Video - 32x B200 - 12-Month Reserved,needs_discount_approval,Negotiated discount 18% exceeds 10% auto-approve
+Deal,Meridian Vision Systems - 32x B200 - 6-Month Reserved,needs_terms_review,Net 60 payment terms
+Deal,Clearwater Climate AI - 64x H200 - 6-Month Reserved,needs_discount_approval,Negotiated discount 15% exceeds 10% auto-approve
+Deal,Clearwater Climate AI - 64x H200 - 6-Month Reserved,needs_terms_review,24-month price lock
+Deal,Ravenmoor Research - 64x H200 - 6-Month Reserved,needs_discount_approval,Negotiated discount 15% exceeds 10% auto-approve
+Deal,Hollowpeak Materials - 64x H200 - 6-Month Reserved,needs_discount_approval,Negotiated discount 15% exceeds 10% auto-approve
+Deal,Cobaltvoice - 256x B200 - 6-Month Reserved,needs_discount_approval,Negotiated discount 22% exceeds 10% auto-approve
+Deal,Emberlight Games - 16x H100 SXM - 12-Month Reserved,needs_terms_review,24-month price lock

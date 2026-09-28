@@ -1,0 +1,134 @@
+First Name,Last Name,Email,Job Title
+Kenji,Mori,kenji.mori@tensorfieldlabs.ai,ML Infrastructure Lead
+Andre,Lin,andre.lin@tensorfieldlabs.ai,CTO
+Diego,Carter,diego.carter@tensorfieldlabs.ai,Finance Manager
+Lucas,Haddad,lucas.haddad@tensorfieldlabs.ai,Head of Legal
+Hannah,Zhang,hannah.zhang@quillmind.ai,ML Infrastructure Lead
+Ravi,Walsh,ravi.walsh@quillmind.ai,CTO
+Elena,Adeyemi,elena.adeyemi@quillmind.ai,Finance Manager
+Marcus,Kim,marcus.kim@quillmind.ai,Head of Legal
+Wei,Brooks,wei.brooks@parallaxrobotics.ai,ML Infrastructure Lead
+Aisha,Larsen,aisha.larsen@parallaxrobotics.ai,CTO
+Leila,Lin,leila.lin@parallaxrobotics.ai,Finance Manager
+Nadia,Rossi,nadia.rossi@brightloombio.ai,ML Infrastructure Lead
+Lucas,Moreau,lucas.moreau@brightloombio.ai,CTO
+Nadia,Nasser,nadia.nasser@brightloombio.ai,Finance Manager
+Ravi,Tanaka,ravi.tanaka@vectorwell.ai,ML Infrastructure Lead
+Chloe,Shah,chloe.shah@vectorwell.ai,CTO
+Leila,Mori,leila.mori@vectorwell.ai,Finance Manager
+Jordan,Karimi,jordan.karimi@cobaltvoice.ai,ML Infrastructure Lead
+Diego,Dubois,diego.dubois@cobaltvoice.ai,CTO
+Samuel,Tanaka,samuel.tanaka@cobaltvoice.ai,Finance Manager
+Samuel,Brooks,samuel.brooks@meridianvisionsystems.ai,ML Infrastructure Lead
+Daniel,Kim,daniel.kim@meridianvisionsystems.ai,CTO
+Sofia,Lin,sofia.lin@meridianvisionsystems.ai,Finance Manager
+Aisha,Nasser,aisha.nasser@northgraingenomics.ai,ML Infrastructure Lead
+Priya,Mori,priya.mori@northgraingenomics.ai,CTO
+Diego,Mori,diego.mori@northgraingenomics.ai,Finance Manager
+Kenji,Iyer,kenji.iyer@driftwooddiffusion.ai,ML Infrastructure Lead
+Samuel,Okafor,samuel.okafor@driftwooddiffusion.ai,CTO
+Ravi,Kim,ravi.kim@driftwooddiffusion.ai,Finance Manager
+Anya,Brooks,anya.brooks@driftwooddiffusion.ai,Head of Legal
+Sofia,Brooks,sofia.brooks@halcyonagents.ai,ML Infrastructure Lead
+Ravi,Petrova,ravi.petrova@halcyonagents.ai,CTO
+Tomas,Zhang,tomas.zhang@halcyonagents.ai,Finance Manager
+Fatima,Adeyemi,fatima.adeyemi@lumenforge.ai,ML Infrastructure Lead
+Aisha,Dubois,aisha.dubois@lumenforge.ai,CTO
+Samuel,Iyer,samuel.iyer@lumenforge.ai,Finance Manager
+Rachel,Shah,rachel.shah@kestrelautonomy.ai,ML Infrastructure Lead
+Nadia,Cohen,nadia.cohen@kestrelautonomy.ai,CTO
+Grace,Shah,grace.shah@kestrelautonomy.ai,Finance Manager
+Jordan,Haddad,jordan.haddad@sablecrestanalytics.ai,ML Infrastructure Lead
+Diego,Larsen,diego.larsen@sablecrestanalytics.ai,CTO
+Sofia,Fischer,sofia.fischer@sablecrestanalytics.ai,Finance Manager
+Marcus,Fischer,marcus.fischer@orchardllm.ai,ML Infrastructure Lead
+Diego,Carter,diego.carter@orchardllm.ai,CTO
+Yuki,Walsh,yuki.walsh@pinecurvehealth.ai,ML Infrastructure Lead
+Kofi,Rossi,kofi.rossi@pinecurvehealth.ai,CTO
+Samuel,Dubois,samuel.dubois@pinecurvehealth.ai,Finance Manager
+Samuel,Zhang,samuel.zhang@glasswingmodels.ai,ML Infrastructure Lead
+Wei,Karimi,wei.karimi@glasswingmodels.ai,CTO
+Grace,Dubois,grace.dubois@glasswingmodels.ai,Finance Manager
+Aisha,Tanaka,aisha.tanaka@ironbarksecurity.ai,ML Infrastructure Lead
+Ravi,Petrova,ravi.petrova@ironbarksecurity.ai,CTO
+Mei,Novak,mei.novak@ironbarksecurity.ai,Finance Manager
+Rachel,Dubois,rachel.dubois@tidepoolresearch.ai,ML Infrastructure Lead
+Samuel,Mori,samuel.mori@tidepoolresearch.ai,CTO
+Mateo,Novak,mateo.novak@tidepoolresearch.ai,Finance Manager
+Mateo,Alvarez,mateo.alvarez@copperlinefinance.ai,ML Infrastructure Lead
+Lucas,Karimi,lucas.karimi@copperlinefinance.ai,CTO
+Ethan,Haddad,ethan.haddad@copperlinefinance.ai,Finance Manager
+Omar,Iyer,omar.iyer@wrenfieldstudios.ai,ML Infrastructure Lead
+Omar,Kim,omar.kim@wrenfieldstudios.ai,CTO
+Hannah,Fischer,hannah.fischer@wrenfieldstudios.ai,Finance Manager
+Elena,Cohen,elena.cohen@marblewaylegal.ai,ML Infrastructure Lead
+Priya,Carter,priya.carter@marblewaylegal.ai,CTO
+Chloe,Fischer,chloe.fischer@marblewaylegal.ai,Finance Manager
+Andre,Fischer,andre.fischer@foxglovespeech.ai,ML Infrastructure Lead
+Priya,Rossi,priya.rossi@foxglovespeech.ai,CTO
+Mateo,Brooks,mateo.brooks@foxglovespeech.ai,Finance Manager
+Marcus,Fischer,marcus.fischer@foxglovespeech.ai,Head of Legal
+Elena,Bennett,elena.bennett@stratacloudmedia.ai,ML Infrastructure Lead
+Anya,Cohen,anya.cohen@stratacloudmedia.ai,CTO
+Elena,Iyer,elena.iyer@stratacloudmedia.ai,Finance Manager
+Hannah,Tanaka,hannah.tanaka@emberlightgames.ai,ML Infrastructure Lead
+Leila,Walsh,leila.walsh@emberlightgames.ai,CTO
+Tomas,Dubois,tomas.dubois@emberlightgames.ai,Finance Manager
+Wei,Mori,wei.mori@riverstoneretail.ai,ML Infrastructure Lead
+Rachel,Carter,rachel.carter@riverstoneretail.ai,CTO
+Andre,Walsh,andre.walsh@riverstoneretail.ai,Finance Manager
+Hannah,Larsen,hannah.larsen@riverstoneretail.ai,Head of Legal
+Grace,Larsen,grace.larsen@solacebiotech.ai,ML Infrastructure Lead
+Mei,Novak,mei.novak@solacebiotech.ai,CTO
+Jordan,Kim,jordan.kim@solacebiotech.ai,Finance Manager
+Leila,Lin,leila.lin@altitudemapping.ai,ML Infrastructure Lead
+Fatima,Lin,fatima.lin@altitudemapping.ai,CTO
+Mei,Nasser,mei.nasser@altitudemapping.ai,Finance Manager
+Anya,Mori,anya.mori@altitudemapping.ai,Head of Legal
+Marcus,Karimi,marcus.karimi@quartzbridgelabs.ai,ML Infrastructure Lead
+Ethan,Brooks,ethan.brooks@quartzbridgelabs.ai,CTO
+Jordan,Bennett,jordan.bennett@quartzbridgelabs.ai,Finance Manager
+Lucas,Mori,lucas.mori@nightjarvideo.ai,ML Infrastructure Lead
+Daniel,Larsen,daniel.larsen@nightjarvideo.ai,CTO
+Hannah,Novak,hannah.novak@nightjarvideo.ai,Head of Legal
+Tomas,Dubois,tomas.dubois@everferneducation.ai,ML Infrastructure Lead
+Omar,Zhang,omar.zhang@everferneducation.ai,CTO
+Mei,Okafor,mei.okafor@everferneducation.ai,Finance Manager
+Kenji,Nasser,kenji.nasser@hollowpeakmaterials.ai,ML Infrastructure Lead
+Hannah,Rossi,hannah.rossi@hollowpeakmaterials.ai,CTO
+Omar,Larsen,omar.larsen@hollowpeakmaterials.ai,Finance Manager
+Anya,Dubois,anya.dubois@hollowpeakmaterials.ai,Head of Legal
+Jordan,Bennett,jordan.bennett@juniperprotein.ai,ML Infrastructure Lead
+Ethan,Dubois,ethan.dubois@juniperprotein.ai,CTO
+Kofi,Shah,kofi.shah@juniperprotein.ai,Finance Manager
+Elena,Adeyemi,elena.adeyemi@juniperprotein.ai,Head of Legal
+Anya,Fischer,anya.fischer@clearwaterclimate.ai,ML Infrastructure Lead
+Aisha,Lin,aisha.lin@clearwaterclimate.ai,CTO
+Grace,Walsh,grace.walsh@clearwaterclimate.ai,Finance Manager
+Tomas,Moreau,tomas.moreau@bramblecode.ai,ML Infrastructure Lead
+Diego,Bennett,diego.bennett@bramblecode.ai,CTO
+Aisha,Moreau,aisha.moreau@bramblecode.ai,Finance Manager
+Priya,Moreau,priya.moreau@starlingtranslate.ai,ML Infrastructure Lead
+Kenji,Larsen,kenji.larsen@starlingtranslate.ai,CTO
+Irene,Nasser,irene.nasser@starlingtranslate.ai,Finance Manager
+Sofia,Lin,sofia.lin@ravenmoorresearch.ai,ML Infrastructure Lead
+Mateo,Mori,mateo.mori@ravenmoorresearch.ai,CTO
+Irene,Dubois,irene.dubois@ravenmoorresearch.ai,Finance Manager
+Leila,Silva,leila.silva@ravenmoorresearch.ai,Head of Legal
+Grace,Zhang,grace.zhang@saltmarshagents.ai,ML Infrastructure Lead
+Tomas,Alvarez,tomas.alvarez@saltmarshagents.ai,CTO
+Tomas,Bennett,tomas.bennett@saltmarshagents.ai,Finance Manager
+Andre,Mori,andre.mori@saltmarshagents.ai,Head of Legal
+Chloe,Bennett,chloe.bennett@thistlesearch.ai,ML Infrastructure Lead
+Yuki,Cohen,yuki.cohen@thistlesearch.ai,CTO
+Andre,Walsh,andre.walsh@thistlesearch.ai,Head of Legal
+Ravi,Iyer,ravi.iyer@obsidianvision.ai,ML Infrastructure Lead
+Aisha,Bennett,aisha.bennett@obsidianvision.ai,CTO
+Ravi,Rossi,ravi.rossi@obsidianvision.ai,Finance Manager
+Anya,Okafor,anya.okafor@larkspurrobotics.ai,ML Infrastructure Lead
+Elena,Petrova,elena.petrova@larkspurrobotics.ai,CTO
+Elena,Karimi,elena.karimi@larkspurrobotics.ai,Finance Manager
+Anya,Fischer,anya.fischer@larkspurrobotics.ai,Head of Legal
+Jamie,Ortiz,jamie.ortiz61@gmail.com,Founder
+Alex,Reyes,alex.reyes25@gmail.com,ML Engineer
+Sam,Patel,sam.patel82@gmail.com,Head of Platform
