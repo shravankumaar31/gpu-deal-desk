@@ -1,0 +1,4 @@
+{
+  "anchor": "2026-09-27",
+  "note": "Dates in deals.csv are anchored to this date. refresh_dates.py shifts from here, so it is safe to re-run."
+}

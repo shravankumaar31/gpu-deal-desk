@@ -13,8 +13,8 @@ Two tracks run in parallel every day: **HubSpot** (the system of record, where t
 |---|---|---|---|
 | 1 | Pipeline, properties, data loaded | Done | **Done** |
 | 2 | Price book, approval matrix, playbook | Done | n/a |
-| 3 | Quote engine + order forms | Done | **← you are here** |
-| 4 | Contract tracker + 3-day stale alert | Not started | Not started |
+| 3 | Quote engine + order forms | Done | Done |
+| 4 | Contract tracker + 3-day stale alert | Done | **← you are here** |
 | 5 | Hygiene audit + finance handoff | Not started | Not started |
 | 6 | README, screenshots, Loom, outreach | Not started | Not started |
 

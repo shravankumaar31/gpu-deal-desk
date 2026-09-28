@@ -1,0 +1,9 @@
+{
+  "Bramblecode - 256x H100 SXM - 3-Month Reserved": {
+    "active": true,
+    "consecutive": 1,
+    "paused_on": "2026-09-27",
+    "reason": "Customer procurement cycle",
+    "return_on": "2026-10-06"
+  }
+}
