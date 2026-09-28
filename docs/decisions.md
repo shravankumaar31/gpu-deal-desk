@@ -60,4 +60,7 @@ Every judgment call made while building this deal desk, and why. Written as I we
 ### 18. Pause state lives in a side file, and that is a compromise
 **Day 4.** Pauses are stored in `data/pauses.json` rather than on the deal record, because all 10 free-tier custom properties are spent. On a paid tier the reason and return date would be deal properties, visible to anyone opening the deal instead of only to whoever runs the script. Right call given the constraint, wrong call without it — state that belongs to a record should live on the record.
 
+### 19. The clock resets on action, not on the contract moving
+**Day 4.** `--followup` logs what was done and sets Last Contract Update to today, so the deal leaves the escalation list. Tying the reset to contract *movement* instead would punish the deal desk for a customer's slow legal team, and the ladder would fill with deals nobody can do anything about — at which point people stop reading the digest. Tying it to *action* keeps the rule honest: a customer can take two weeks, but nobody gets to ignore the deal for two weeks. `--note` is required, because an unlogged follow-up leaves no trail and the trail is what makes the reset auditable.
+
 <!-- Add your own entries below, same format: title, day, reasoning. -->

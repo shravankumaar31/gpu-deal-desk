@@ -14,7 +14,17 @@ python3 contract_tracker.py --pauses   # list pauses, active and released
 python3 contract_tracker.py --pause "Bramblecode" \
         --reason "Customer procurement cycle" --until 2026-10-06
 python3 contract_tracker.py --unpause "Bramblecode"
+
+python3 contract_tracker.py --followup "Starling" \
+        --note "Emailed their Head of Legal; offered a call Thursday."
 ```
+
+`--followup` is the action the digest is asking for. It records what you did in
+`data/followups.csv` and sets Last Contract Update to today, so the deal drops
+off tomorrow's list. **The clock resets on action, not on the contract moving** —
+a customer's legal team can take two weeks, but nobody gets to ignore the deal
+for two weeks. `--note` is required: an unlogged follow-up leaves no trail, and
+the trail is the point.
 
 Today's digest:
 
@@ -51,6 +61,8 @@ A saved HubSpot view can already list deals that haven't moved in three days. Th
 **It names who you're waiting on.** *Legal Review* becomes "waiting on customer legal"; *Out for Signature* becomes "waiting on customer signatory". A list of stale deals tells you something is wrong. A list that names the blocker tells you what to do next, which is the difference between a report and a follow-up.
 
 **It sorts by the ladder, not by date.** Two deals at 11 and 13 days both belong on the CEO's desk; a deal at 5 belongs with the Head of GTM. Grouping by who needs to act means the digest can be read top-down and stopped at your own row.
+
+**It closes its own loop.** The digest names a deal, `--followup` records the action, and the deal drops off the next run. Most "stale deal" reports stop at naming the problem, which is why people stop reading them.
 
 **It shows the money at risk.** "$378,507 at risk" is the line that gets the digest read. Deal count alone doesn't distinguish a stalled $24K on-demand order from a stalled $999K reservation.
 

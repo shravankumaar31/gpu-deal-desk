@@ -20,6 +20,7 @@ RANK = MATRIX["approver_rank"]
 AUTO = "Deal Desk (auto)"
 
 QUOTED_STAGES = ("Quote Sent", "Contract Out", "Closed Won", "Closed Lost")
+DEALS_CSV = os.path.join(BASE, "data", "deals.csv")
 BILLING_TITLE = "Finance Manager"
 PO_MIN_EMPLOYEES = 1000
 

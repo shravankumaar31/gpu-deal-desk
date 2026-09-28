@@ -35,6 +35,7 @@ from datetime import date, datetime
 import dealdesk as dd
 
 PAUSE_FILE = os.path.join(dd.BASE, "data", "pauses.json")
+FOLLOWUP_LOG = os.path.join(dd.BASE, "data", "followups.csv")
 ESC = dd.POLICY["escalation"]
 LADDER = ESC["ladder_days"]
 PAUSE_RULES = ESC["pause"]
@@ -102,6 +103,42 @@ def add_pause(deal_name, reason, until, last_contract_update):
                          "active": True}
     save_pauses(pauses)
     print(f"Paused {deal_name}\n  reason: {reason}\n  returns: {until} ({days} days)")
+
+
+def log_followup(deal_name, note):
+    """Record a follow-up and reset the deal's clock.
+
+    This is the action the digest is asking for. Logging it sets Last Contract
+    Update to today in the portal mirror, so the deal drops off tomorrow's
+    escalation list — the clock resets on *action*, not on the contract moving.
+    A deal nobody touches keeps climbing the ladder.
+    """
+    rows = list(csv.DictReader(open(dd.DEALS_CSV)))
+    hit = None
+    for r in rows:
+        if r["Deal Name"] == deal_name:
+            r["Last Contract Update"] = date.today().isoformat()
+            hit = r
+    if not hit:
+        sys.exit(f"{deal_name} not found in the portal mirror.")
+
+    with open(dd.DEALS_CSV, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w.writeheader()
+        w.writerows(rows)
+
+    new = not os.path.exists(FOLLOWUP_LOG)
+    with open(FOLLOWUP_LOG, "a", newline="") as f:
+        w = csv.writer(f)
+        if new:
+            w.writerow(["Date", "Deal Name", "Contract Status", "Note"])
+        w.writerow([date.today().isoformat(), deal_name, hit.get("Contract Status", ""), note])
+
+    print(f"Follow-up logged on {deal_name}")
+    print(f"  {note}")
+    print(f"  Last Contract Update -> {date.today()}  (clock reset)")
+    print(f"  appended to {os.path.relpath(FOLLOWUP_LOG, dd.BASE)}")
+    print("\nIn HubSpot: add this as a Note on the deal and set Last Contract Update to today.")
 
 
 # --------------------------------------------------------------------------
@@ -229,6 +266,8 @@ def main():
     ap.add_argument("--reason", help="pause reason (must be an allowed reason)")
     ap.add_argument("--until", metavar="YYYY-MM-DD", help="expected return date")
     ap.add_argument("--unpause", metavar="DEAL", help="clear a pause (partial name)")
+    ap.add_argument("--followup", metavar="DEAL", help="log a follow-up and reset the clock")
+    ap.add_argument("--note", help="what you did, for the follow-up log")
     args = ap.parse_args()
 
     deals, _, _ = dd.load_portal()
@@ -254,6 +293,13 @@ def main():
                 state = f"{left}d left" if left >= 0 else f"EXPIRED {-left}d ago"
             print(f"  {name}\n    {p['reason']} · returns {p['return_on']} · {state}"
                   f" · pause {p['consecutive']} of {PAUSE_RULES['max_consecutive']}")
+        return
+
+    if args.followup:
+        if not args.note:
+            sys.exit("--followup needs --note. An untraceable follow-up is not a follow-up; "
+                     "the log is what makes the reset auditable.")
+        log_followup(find(args.followup)["Deal Name"], args.note)
         return
 
     if args.pause:
