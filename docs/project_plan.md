@@ -14,8 +14,8 @@ Two tracks run in parallel every day: **HubSpot** (the system of record, where t
 | 1 | Pipeline, properties, data loaded | Done | **Done** |
 | 2 | Price book, approval matrix, playbook | Done | n/a |
 | 3 | Quote engine + order forms | Done | Done |
-| 4 | Contract tracker + 3-day stale alert | Done | **← you are here** |
-| 5 | Hygiene audit + finance handoff | Not started | Not started |
+| 4 | Contract tracker + 3-day stale alert | Done | Done |
+| 5 | Hygiene audit + finance handoff | Done | **← you are here** |
 | 6 | README, screenshots, Loom, outreach | Not started | Not started |
 
 Repo: `github.com/shravankumaar31/gpu-deal-desk` · Local: `~/gpu-deal-desk`

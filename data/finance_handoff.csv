@@ -1,0 +1,18 @@
+Deal Name,Company,Amount,GPU,Term,Billing Frequency,Payment Terms,Billing Contact,PO Number,Start Date,Fulfillment,Missing
+Ravenmoor Research - 32x H100 SXM - 12-Month Reserved,Ravenmoor Research,493363.2,32x H100 SXM,12-Month Reserved,Monthly,Net 30,irene.dubois@ravenmoorresearch.ai,PO-824156,2026-06-17,Invoiced,
+Obsidian Vision - 64x H100 SXM - 3-Month Reserved,Obsidian Vision,269191.3,64x H100 SXM,3-Month Reserved,Quarterly,Net 30,ravi.rossi@obsidianvision.ai,,2026-08-07,Provisioning,
+Clearwater Climate AI - 8x B200 - 12-Month Reserved,Clearwater Climate AI,218649.6,8x B200,12-Month Reserved,Prepaid Upfront,Net 30,grace.walsh@clearwaterclimate.ai,,2026-08-26,Provisioning,
+Meridian Vision Systems - 32x B200 - 6-Month Reserved,Meridian Vision Systems,427459.97,32x B200,6-Month Reserved,Quarterly,Net 30,sofia.lin@meridianvisionsystems.ai,,2026-03-01,Invoiced,
+Kestrel Autonomy - 128x H100 SXM - 3-Month Reserved,Kestrel Autonomy,555033.6,128x H100 SXM,3-Month Reserved,Quarterly,Net 30,grace.shah@kestrelautonomy.ai,,2026-02-11,Live,
+Kestrel Autonomy - 16x H200 - On-Demand,Kestrel Autonomy,40880.0,16x H200,On-Demand,Prepaid Upfront,Net 30,grace.shah@kestrelautonomy.ai,,2026-01-25,Provisioning,
+Saltmarsh Agents - 128x H200 - 6-Month Reserved,Saltmarsh Agents,1617866.88,128x H200,6-Month Reserved,Quarterly,Net 30,tomas.bennett@saltmarshagents.ai,PO-596249,2026-04-25,Live,
+Wrenfield Studios - 32x H200 - 6-Month Reserved,Wrenfield Studios,416976.0,32x H200,6-Month Reserved,Prepaid Upfront,Net 30,hannah.fischer@wrenfieldstudios.ai,,2026-04-20,Provisioning,
+Solace Biotech - 8x H100 SXM - 1-Month Reserved,Solace Biotech,12205.6,8x H100 SXM,1-Month Reserved,Monthly,Net 30,jordan.kim@solacebiotech.ai,,2026-04-20,Invoiced,
+Obsidian Vision - 16x H200 - 1-Month Reserved,Obsidian Vision,31068.8,16x H200,1-Month Reserved,Monthly,Net 30,ravi.rossi@obsidianvision.ai,,2026-01-18,Live,
+Meridian Vision Systems - 32x B200 - 6-Month Reserved,Meridian Vision Systems,464630.4,32x B200,6-Month Reserved,Monthly,Net 30,sofia.lin@meridianvisionsystems.ai,,2026-04-01,Provisioning,
+Larkspur Robotics - 32x H100 SXM - 1-Month Reserved,Larkspur Robotics,48822.4,32x H100 SXM,1-Month Reserved,Monthly,Net 30,elena.karimi@larkspurrobotics.ai,,2026-07-20,Invoiced,PO number captured (if required)
+Ravenmoor Research - 64x H100 SXM - On-Demand,Ravenmoor Research,102784.0,64x H100 SXM,On-Demand,Prepaid Upfront,Net 30,irene.dubois@ravenmoorresearch.ai,PO-851413,2026-07-26,Live,Contract countersigned
+Orchard LLM - 16x H100 SXM - 3-Month Reserved,Orchard LLM,69379.2,16x H100 SXM,3-Month Reserved,Monthly,Net 30,,,2026-01-17,Live,Billing contact on the account
+Nightjar Video - 32x B200 - 12-Month Reserved,Nightjar Video,717170.69,32x B200,12-Month Reserved,Monthly,Net 30,,,2026-08-23,Live,Billing contact on the account; PO number captured (if required)
+Thistle Search - 256x H100 SXM - 3-Month Reserved,Thistle Search,1110067.2,256x H100 SXM,3-Month Reserved,Monthly,Net 30,,PO-430876,2026-02-02,Provisioning,Billing contact on the account
+Pinecurve Health AI - 16x B200 - 6-Month Reserved,Pinecurve Health AI,232315.2,16x B200,6-Month Reserved,Monthly,Net 30,samuel.dubois@pinecurvehealth.ai,,2026-05-30,Live,Contract countersigned

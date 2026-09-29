@@ -63,4 +63,16 @@ Every judgment call made while building this deal desk, and why. Written as I we
 ### 19. The clock resets on action, not on the contract moving
 **Day 4.** `--followup` logs what was done and sets Last Contract Update to today, so the deal leaves the escalation list. Tying the reset to contract *movement* instead would punish the deal desk for a customer's slow legal team, and the ladder would fill with deals nobody can do anything about — at which point people stop reading the digest. Tying it to *action* keeps the rule honest: a customer can take two weeks, but nobody gets to ignore the deal for two weeks. `--note` is required, because an unlogged follow-up leaves no trail and the trail is what makes the reset auditable.
 
+### 20. Only 1 of 23 findings is safe to auto-fix, and that is the right answer
+**Day 5.** The audit sorts findings into AUTO, REVIEW and BLOCK. Exactly one lands in AUTO: a duplicate company record with no deals and no contacts attached, where nothing references it and removing it destroys no information. Everything else needs judgment an algorithm does not have — an amount mismatch is either an unrecorded negotiation or a typo, a past close date needs the rep's new forecast, a duplicate carrying deals on both records needs someone to choose which survives. The test for "safe to automate" is whether it is reversible and requires zero judgment. A tool that auto-fixed all 23 would be faster and wrong.
+
+### 21. Exit criteria have to be enforced at the stage they belong to
+**Day 5.** The billing-contact rule was first checked only on Closed Won and found 3 of the 4 planted cases. The playbook makes a billing contact an exit criterion for *Contract Out*, so checking a stage earlier caught the fourth. If an exit criterion is only enforced at the final stage it is not an exit criterion, it is a final inspection — and by then the deal is already won against an account nobody can invoice.
+
+### 22. A hygiene score nobody can act on is worse than no score
+**Day 5.** The first scoring formula summed severity weights and divided by record count, which produced **0.0/100 for Deals** on 18 findings across 60 records. Technically a number, useless as a signal, and exactly the kind of metric people quietly stop opening. Replaced with the share of records that pass every check — 70% of deals are clean — with severity counts reported alongside rather than compressed into the score. A metric has to be able to move for anyone to care about it.
+
+### 23. The deal desk chases the blockers, not finance
+**Day 5.** The handoff splits won deals into invoice-ready and blocked: 11 clean rows worth $4.5M, and 6 blocked worth $2.3M. Finance gets only the clean ones. Handing them six problems to chase is how the handoff turns into a monthly argument between the two teams; keeping the six and handing over eleven is how it stays a handoff. Two of the blocked deals are marked Closed Won against contracts nobody has countersigned, which is a revenue recognition problem, not a paperwork one.
+
 <!-- Add your own entries below, same format: title, day, reasoning. -->
