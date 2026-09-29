@@ -75,4 +75,16 @@ Every judgment call made while building this deal desk, and why. Written as I we
 ### 23. The deal desk chases the blockers, not finance
 **Day 5.** The handoff splits won deals into invoice-ready and blocked: 11 clean rows worth $4.5M, and 6 blocked worth $2.3M. Finance gets only the clean ones. Handing them six problems to chase is how the handoff turns into a monthly argument between the two teams; keeping the six and handing over eleven is how it stays a handoff. Two of the blocked deals are marked Closed Won against contracts nobody has countersigned, which is a revenue recognition problem, not a paperwork one.
 
+### 24. The import reported success and created 41 empty records
+**Day 5.** Searching HubSpot for a company turned up a record with a domain and nothing else — no name, no employee count, no city. Every one of the 41 companies was the same. The original import had reported success and the record count was exactly right, so nothing looked wrong until a record was actually opened. Only the domain column had mapped; the rest were silently dropped.
+
+This mattered beyond tidiness. The PO-required rule keys off Number of Employees (1,000+), so a core business rule had no data behind it in the CRM — the audit only worked because it reads the local CSV rather than the portal. Re-importing the companies file keyed on Company Domain Name filled the existing records in place.
+
+**A row count is not a data quality check.** Verify a migration by opening records and checking field-level fill rates, not by confirming the totals match. This is also the argument for the hygiene audit existing at all: an import that "succeeded" is exactly the kind of failure a scheduled audit catches and a success message does not.
+
+### 25. A portfolio README that quotes live numbers goes stale within days
+**Day 6.** The first README stated "15 approved, 11 blocked, 5 stale contracts, $378K at risk." Within a day of fixing records in HubSpot and re-syncing, the real figures were 16, 10, and $1.93M — and the claim that approved deals came "with a PDF" implied 44 documents when only 2 existed on disk. Anyone who cloned the repo and ran it would have found numbers that disagreed with the page describing them, and reasonably wondered what else was wrong.
+
+Fixed by date-stamping the figures and saying plainly that they move. The broader habit: any document that quotes a live metric needs the as-of date attached, or it quietly becomes untrue. This is the same failure as the import that reported success — the artifact says one thing and the system says another, and nobody checks until it matters.
+
 <!-- Add your own entries below, same format: title, day, reasoning. -->
